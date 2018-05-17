@@ -1,5 +1,9 @@
 # 项目说明
 
+##简介
+用最传统的xml方式配制Hibernate及实体映射文件，并进行简单的增删改查测试
+
+
 ## 需要你做的事
 把/src/main/resources/hibernate.cfg.xml中  
 connection.url 换成您相应的数据库url 并指定链接的库(默认为hibernate4，如果不存在需要手动创建一个)  
