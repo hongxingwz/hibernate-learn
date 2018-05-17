@@ -3,6 +3,7 @@ package com.jianglei.entity;
 import java.util.Date;
 
 /**
+ * Event实体
  * @author jianglei
  * @since 2018/5/16
  */
@@ -54,5 +55,20 @@ public class Event {
                 ", title='" + title + '\'' +
                 ", date=" + date +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Event)) return false;
+
+        Event event = (Event) o;
+
+        return id != null ? id.equals(event.id) : event.id == null;
+    }
+
+    @Override
+    public int hashCode() {
+        return id != null ? id.hashCode() : 0;
     }
 }

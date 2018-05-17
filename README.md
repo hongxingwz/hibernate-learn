@@ -10,5 +10,5 @@
 
 ## Maven子模块
 
-**basic-01**
+**basic-01**  
 使用xml的方法配制Hibernate并完成简单的保存查询等功能
